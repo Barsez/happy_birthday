@@ -1,8 +1,22 @@
+@font-face {
+    font-family: "VividSans";
+    src: url("../font/VividSans-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+  }
+@font-face {
+    font-family: "LTSuperior";
+    src: url("../font/LTSuperior-Regular.otf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+  }
 body {
-    background: center center no-repeat;
+    background: top center no-repeat;
     background-image: url('../img/starod_2.jpg');
     background-blend-mode: screen;
-    background-color: #b7adbd;
+    background-color: #98909c;
 }
 
 .container {
@@ -18,7 +32,8 @@ body {
     margin: 30px 0;
     text-transform: uppercase;
     position: relative;
-    text-shadow: 3px 3px 5px rgb(32, 32, 32);;
+    font-family: 'VividSans';
+    font-size: 36px;
 }
 .fire_1, .fire_2 {
     position: absolute;
@@ -31,7 +46,8 @@ body {
 .date {
     display: flex;
     position: relative;
-    text-shadow: 3px 3px 5px rgb(32, 32, 32);;
+    text-shadow: 3px 3px 5px rgb(32, 32, 32);
+    font-family: 'VividSans';
 }
 
 .heart_1 {
@@ -58,22 +74,22 @@ body {
     color: rgb(243, 60, 213);
     margin: 30px 0;
     font-size: 30px;
+    font-family: 'LTSuperior';
 }
 .congratulation {
     text-align: center;
     font-size: 24px;
+    font-family: 'LTSuperior';
 }
 .main_photo_block {
-    width: 100%;
+    width: 200px;
     /* height: 150px; */
     margin: 30px 0;
 }
-/* .main_photo {
-    width: 100%;
-} */
 .position {
     text-align: center;
     font-size: 20px;
+    font-family: 'LTSuperior';
 }
 
 .footer {
