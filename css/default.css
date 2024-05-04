@@ -1,0 +1,54 @@
+@import 'style.css';
+
+
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 320px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+img,
+svg {
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+}
+
+button {
+    padding: 0;
+    cursor: pointer;
+    border-color: transparent;
+    border: none;
+    background-color: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+    padding: 0;
+}
