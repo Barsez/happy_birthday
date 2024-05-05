@@ -39,7 +39,7 @@ body {
 }
 
 .container {
-    background: top center no-repeat;
+    background: top center no-repeat ;
     background-image: url('../img/starod_2.jpg');
     background-blend-mode: screen;
     background-color: #98909c;
@@ -60,11 +60,10 @@ body {
 }
 
 .hero_day {
-    margin: 20px 0;
+    margin: 10px 0;
     text-transform: uppercase;
     position: relative;
     font-family: 'Wolgadeutsche';
-    
     font-size: 30px;
 }
 .fire_1, .fire_2 {
@@ -78,10 +77,8 @@ body {
 .date {
     display: flex;
     position: relative;
-    text-shadow: 3px 3px 5px rgb(32, 32, 32);
-    
+    text-shadow: 3px 3px 5px rgb(32, 32, 32);  
 }
-
 
 .cake_photo {
     width: 100px;
@@ -102,7 +99,7 @@ body {
     font-family: "LTSuperior-semibold";
 }
 .baloons {
-    height: 200px;
+    height: 250px;
     margin: 35px 0;
     cursor: pointer;
     display: flex;
@@ -131,6 +128,15 @@ body {
     width: 200px;
     margin: 35px 0;
 }
+
+.ninja_block img{ 
+    
+}
+.ninja_text {
+  font-family: 'Wolgadeutsche';  
+  font-size: 24px;
+}
+
 .footer {
     width: 100%;
     
@@ -139,7 +145,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin: 10px 0;
+    margin: 20px 0 10px;
 }
 .footer_love_block {
     display: flex;
