@@ -56,7 +56,7 @@ body {
     position: absolute;
     right: 0;
     top: 0;
-    width: 10px;
+    width: 15px;
 }
 
 .hero_day {
@@ -82,18 +82,6 @@ body {
     
 }
 
-.heart_1 {
-    height: 20px;
-    position: absolute;
-    left: -25px;
-    top: 3px;
-}
-.heart_2 {
-    height: 20px;
-    position: absolute;
-    right: -25px;
-    top: 3px;
-}
 
 .cake_photo {
     width: 100px;
@@ -114,10 +102,26 @@ body {
     font-family: "LTSuperior-semibold";
 }
 .baloons {
-    width: 100px;
+    height: 200px;
     margin: 35px 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
 }
-
+.baloons img {
+    height: 100%;
+}
+.push_baloons {
+    color: rgb(73, 23, 209);
+    font-family: "LTSuperior-semibold";   
+}
+.push_block {
+    display: flex;
+    gap: 10px;
+}
+.arrow_push_baloons {
+    width: 20px;
+}
 .position {
     text-align: center;
     font-size: 20px;
