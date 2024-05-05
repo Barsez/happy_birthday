@@ -1,10 +1,4 @@
-@font-face {
-    font-family: "VividSans";
-    src: url("../font/VividSans-Regular.ttf") format("truetype");
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-  }
+
 @font-face {
     font-family: "LTSuperior-regular";
     src: url("../font/LTSuperior-Regular.otf") format("truetype");
@@ -12,12 +6,7 @@
     font-weight: 400;
     font-display: swap;
   }
-@font-face {
-    font-family: "LTSuperior-medium";
-    src: url("../font/LTSuperior-Medium.otf") format("truetype");
-    font-style: normal;
-    font-display: swap;
-  }
+
 @font-face {
     font-family: "LTSuperior-bold";
     src: url("../font/LTSuperior-Bold.otf") format("truetype");
@@ -30,6 +19,20 @@
     font-style: normal;
     font-display: swap;
   }
+@font-face {
+    font-family: "Wolgadeutsche";
+    src: url("../font/Wolgadeutsche.otf") format("truetype");
+    font-style: normal;
+    font-display: swap;
+  }
+@font-face {
+    font-family: "Everlasting";
+    src: url("../font/Everlasting.ttf") format("truetype");
+    font-style: normal;
+    font-display: swap;
+  }
+
+
 body {
     background-color: black;
     font-family: 'LTSuperior-regular';
@@ -47,12 +50,20 @@ body {
     align-items: center;
     justify-content: space-between;
     margin: 0 auto;
+    position: relative;
 }
+.ab {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 10px;
+}
+
 .hero_day {
-    margin: 30px 0;
+    margin: 20px 0;
     text-transform: uppercase;
     position: relative;
-    font-family: 'LTSuperior-bold';
+    font-family: 'Wolgadeutsche';
     
     font-size: 30px;
 }
@@ -86,7 +97,7 @@ body {
 
 .cake_photo {
     width: 100px;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .surname {
@@ -94,28 +105,31 @@ body {
     text-align: center;
     color: rgb(73, 23, 209);
     margin: 30px 0;
-    font-size: 34px;
-    font-family: "LTSuperior-bold";
+    font-size: 40px;
+    font-family: "Everlasting";
 }
 .congratulation {
     text-align: center;
     font-size: 24px;
+    font-family: "LTSuperior-semibold";
 }
 .baloons {
     width: 100px;
-    margin: 30px 0;
+    margin: 35px 0;
 }
 
 .position {
     text-align: center;
     font-size: 20px;
+    font-family: "LTSuperior-semibold";
 }
-.main_photo_block {
+.flower_photo_block {
     width: 200px;
-    margin: 30px 0;
+    margin: 35px 0;
 }
 .footer {
     width: 100%;
+    
 }
 .footer_block {
     display: flex;
