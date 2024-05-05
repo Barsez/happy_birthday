@@ -13,9 +13,9 @@
         transform: rotateY(360deg);
     }
 }
-.hero_day {
+/* .hero_day {
     animation: flame 7s infinite;
-}
+} */
 
 @keyframes flame {
     0% {color:black}
